@@ -1,6 +1,6 @@
 /*
 * onglet.js
-* Prototype/Scriptaculous
+* Prototype/Scriptaculous 1.7
 * Simple tabs using prototype
 * 20/12/2012
 ************************************************/
