@@ -81,7 +81,7 @@ var Multiselector = Class.create({
         moveRight : function(m1,m2,master){
                 this.move(m1, m2, master, true);
         },
-        getSelectedOptions(select){
+        getSelectedOptions : function(select){
                 var result = [];
                 var options = select && select.options;
                 var opt;
@@ -95,7 +95,7 @@ var Multiselector = Class.create({
                 }
                 return result;
         },
-        getNonSelectOptions(select){
+        getNonSelectOptions : function(select){
                 var result = [];
                 var options = select && select.options;
                 var opt;
